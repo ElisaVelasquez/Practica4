@@ -5,7 +5,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/productos_img"
+        android:id="@+id/producto_img"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:src="@drawable/antojitos"
