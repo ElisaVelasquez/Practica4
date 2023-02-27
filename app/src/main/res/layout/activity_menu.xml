@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/grupo2"
         android:layout_marginTop="40dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:id="@+id/title"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,7 +50,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:id="@+id/especialidades"/>
+            android:id="@+id/btnEspecialidades"/>
         <Button
             android:text="Combinations"
             android:textColor="@color/white"
@@ -60,7 +61,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:id="@+id/combinations"/>
+            android:id="@+id/btnCombinations"/>
         <Button
             android:text="Tortas"
             android:textColor="@color/white"
@@ -71,7 +72,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:id="@+id/tortas"
+            android:id="@+id/btnTortas"
             />
         <Button
             android:text="Sopas"
@@ -83,7 +84,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:id="@+id/sopas"
+            android:id="@+id/btnSopas"
             />
         <Button
             android:text="Drinks"
@@ -95,7 +96,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:id="@+id/drinks"
+            android:id="@+id/btnDrinks"
             />
     </GridLayout>
 
